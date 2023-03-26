@@ -1,4 +1,5 @@
 mod Entrance {
     pub def buyTicket(): Unit \ IO = 
-        println("Museum.Entrance.buyTicket() was called.")
+        Clerk.work();
+        println("Entrance.buyTicket() was called.")
 }
